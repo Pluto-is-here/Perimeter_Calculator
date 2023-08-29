@@ -51,8 +51,9 @@ while keep_going == "":
 
     # output and perimeter (to 2 dp)
 
-    print("Perimeter: {.2f} units".format(perimeter))
-    print("Area: {.2f} square units".format(area))
+    print("Area: {:.2f} square units".format(area))
+    print("Perimeter: {:.2f} units".format(perimeter))
+
     print()
 
     keep_going = input("Press <enter> to keep going or any key to quit")
